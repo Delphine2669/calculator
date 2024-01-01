@@ -1,0 +1,140 @@
+.calculator-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 8px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "a a a a"
+    "b c d e"
+    "f g h i"
+    "j k l m"
+    "n o p q"
+    "r r s t";
+}
+
+.c-button,
+.negative-button,
+.percentage-button,
+.divide-button,
+.nine-button,
+.seven-button,
+.eight-button,
+.multiply-button,
+.four-button,
+.five-button,
+.six-button,
+.minus-button,
+.one-button,
+.two-button,
+.three-button,
+.plus-button,
+.zero-button,
+.decimal-button,
+.equal-button {
+  color: var(--deep-purple);
+  border-radius: 10dvw;
+}
+.nine-button,
+.seven-button,
+.eight-button,
+.four-button,
+.five-button,
+.six-button,
+.one-button,
+.two-button,
+.three-button,
+.zero-button,
+.decimal-button {
+  background-color: var(--marshmallow-pink);
+}
+.divide-button,
+.multiply-button,
+.minus-button,
+.plus-button,
+.equal-button {
+  background-color: var(--deep-purple);
+  color: var(--powdery-pink);
+}
+.c-button,
+.negative-button,
+.percentage-button {
+  background-color: var(--powdery-blue);
+}
+
+.input-box {
+  grid-area: a;
+  border-radius: 10dvw;
+}
+
+.c-button {
+  grid-area: b;
+}
+
+.negative-button {
+  grid-area: c;
+}
+
+.percentage-button {
+  grid-area: d;
+}
+
+.divide-button {
+  grid-area: e;
+}
+
+.seven-button {
+  grid-area: f;
+}
+
+.eight-button {
+  grid-area: g;
+}
+
+.nine-button {
+  grid-area: h;
+}
+
+.multiply-button {
+  grid-area: i;
+}
+
+.four-button {
+  grid-area: j;
+}
+
+.five-button {
+  grid-area: k;
+}
+
+.six-button {
+  grid-area: l;
+}
+
+.minus-button {
+  grid-area: m;
+}
+
+.one-button {
+  grid-area: n;
+}
+
+.two-button {
+  grid-area: o;
+}
+
+.three-button {
+  grid-area: p;
+}
+.plus-button {
+  grid-area: q;
+}
+.zero-button {
+  grid-area: r;
+}
+.decimal-button {
+  grid-area: s;
+}
+.equal-button {
+  grid-area: t;
+}
